@@ -1,0 +1,13 @@
+<!-- Aca va el codigo que copia el layout (codigo que reutilizaremos para las paginas que tengan caracteristicas en comun) -->
+{% extends "layout.html" %}
+<!-- Abrimos e insertamos el codigo HTML que diferencia de las demas paginas y luego lo cerramos con los codigos que se visualizan -->
+{% block content %}
+<!-- con ctrl mas H ordeno codigo html plugin instalado -->
+<div class="jumbotron">
+    <h1 class="display-4">Bienvenido!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+</div>
+{% endblock %}
